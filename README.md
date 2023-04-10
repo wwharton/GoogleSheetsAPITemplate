@@ -2,6 +2,13 @@
 - Create a Google Spreadsheet with some example data
   - The Google-Spreadsheets library reads rows, with column header keys
 - Visit `https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication?id=service-account` follow instructions to create service account and credentials
+
+## Clone Project
+- Clone this project and run 'npm i'
+- provide your own credentials in `index.js`
+- `npm run dev`
+
+## Create your own proejct and Copy/Paste essentials
 - Create new project with `npx create-next-app@13.2.4 project-name`
 - `npm i google-spreadsheet --save`
 - Copy over `next.js.config`
@@ -9,7 +16,7 @@
 - Copy over `package-lock.json`
 - Copy over `package.json`
 - run `npm i`
-- Provide your credentials in the placeholder in `index.js`
+- Provide your credentials in `index.js`
 - `npm run dev` and see the values in your sheets
 
 #############################################################################
