@@ -1,3 +1,19 @@
+# Google Sheets Template
+- Create a Google Spreadsheet with some example data
+  - The Google-Spreadsheets library reads rows, with column header keys
+- Visit `https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication?id=service-account` follow instructions to create service account and credentials
+- Create new project with `npx create-next-app@13.2.4 project-name`
+- `npm i google-spreadsheet --save`
+- Copy over `next.js.config`
+- Copy over `index.js`
+- Copy over `package-lock.json`
+- Copy over `package.json`
+- run `npm i`
+- Provide your credentials in the placeholder in `index.js`
+- `npm run dev` and see the values in your sheets
+
+#############################################################################
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,3 +52,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
