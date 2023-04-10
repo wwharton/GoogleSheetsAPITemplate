@@ -1,7 +1,18 @@
 # Google Sheets Template
+This is a boilerplate React App to help you get started with integrating the Google Sheets API into your web app development.
+
+Using GoogleSheets as your backend is a free way to begin developing a WebApp with read and write. I was inspired to build a WebApp backed by Google Spreadsheets after reading about how levels.fyi initially used Sheets as their backend: https://www.levels.fyi/blog/scaling-to-millions-with-google-sheets.html
+
+You will face a 60 requests per minute rate-limit with GoogleSpreadsheets, per service account.
+
+When I initially set this up, I had trouble with the Google-Spreadsheet NPM library due to missing polyfills. The `next.config.js` changes address that.
+
+
+## Set up your Spreadsheet and Credentials
 - Create a Google Spreadsheet with some example data
   - The Google-Spreadsheets library reads rows, with column header keys
 - Visit `https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication?id=service-account` follow instructions to create service account and credentials
+- Don't forget to Share your spreadsheet with your service account, as if you were sharing the sheet with a friend.
 
 ## Clone Project
 - Clone this project and run 'npm i'
